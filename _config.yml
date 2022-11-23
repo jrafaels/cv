@@ -1,0 +1,257 @@
+# Site
+repository: jrafaels/cv
+favicon: images/favicon.ico
+
+version: 2
+
+# Personal info
+name: Jorge Rafael Santos
+title: Full Stack Developer
+email: jorge.rafael.santos@gmail.com
+website: qualker.pt
+
+# Social links
+# twitter_username:
+github_username:  jrafaels
+# dribbble_username:
+# facebook_username:
+# flickr_username:
+#instagram_username:
+linkedin_username: jorge-rafael-santos
+# pinterest_username:
+# youtube_username:
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: |
+  Hello, my name is Jorge Rafael Santos and I'm a full-stack developer.
+  Currently, I work at <mark>Farfetch</mark>.
+  
+  I'm also a freelancer and I have projects all over the world.
+  Many personal projects allow me to evolve and grow even more. Some of these projects are:
+  
+  <mark>Professor/Former</mark>
+  
+  <mark>IT Director at Galaxy Sport</mark>
+
+  <mark>Sporting Clube de Portugal</mark>
+  
+  <mark>351 Agency</mark>
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Galaxy Football Academy
+        sub_title: IT Director
+        caption: October 2022 - Present
+        description: |
+          GFA is a football academy based in Dakar, Senegal. As IT Director, I am responsible for the technological and 
+          functional modernization of this club.
+  
+          Building, using, and maintaining platforms are part of my responsibility, using on-premise and cloud services.
+          We work with several technologies such as Python, Typescript, and AWS.
+          
+          The main goal of this team is in the data control optimization of several players we have, so we can continue 
+          to progress internationally. In the 2023/2024 sports season, we will make the expansion to Europe.
+        
+          <mark>Focus: Azure, AWS, Typescript, Python, IoT, Team Management</mark>
+
+      - layout: left
+        border: weak
+        title: Farfetch
+        sub_title: Backend Software Engineer
+        link: www.farfetch.com
+        caption: Jun 2022 - Present
+        description: |
+          As IoT Software Developer, it was part of my role to develop new features and maintain the smart mirrors that 
+          Farfetch and its partners have in the boutiques.
+  
+          Focused on the backend, the management, and control of the mirrors, and the software in them was essentially 
+          done through technology such as Azure, Typescript, and .NET.
+          
+          Working more recently with .NET and C#, my main roles involve backend development of new functionality for the 
+          company's in-store services.
+        
+          <mark>Focus: Node.js, Typescript, Azure, C#, .NET, Git, MongoDB, Robot Framework</mark>
+
+      - layout: left
+        border: weak
+        title: Iscte-iul
+        sub_title: Invited Professor
+        link: www.iscte-iul.pt
+        caption: Feb 2021 - Present
+        description: |
+          University professor at the Iscte-Iul university in Lisbon in the Operating Systems course.
+
+          Linux and C are the main topics covered in class, also with: Introduction to Operating Systems Processes, 
+          Processes and threads, Process scheduling, Process synchronization, Semaphores, Interprocess communication 
+          Memory Management, Memory management models and algorithms, Virtual Memory, Input / Output, File Systems, 
+          Administration and security issues Case study: Linux, shell commands and shell programming, Communication and 
+          synchronization mechanisms.                                                    
+
+      - layout: left
+        border: weak
+        title: Upskill Iscte-iul
+        sub_title: Former
+        link: www.upskill.pt
+        caption: Set 2020 - Present
+        description: |
+          The UPskill Programme aims to re-qualify people in the various areas of Information and Communication 
+          Technologies.
+          As a former trainer since the first edition of the program, I have taught the following courses:
+          
+          Java, covering the subjects of Programming in Java, database, software engineering, and SpringBoot.
+          
+          Cloud, covering the subjects of Operating Systems, Networking, Web, and AWS.
+
+      - layout: left
+        border: weak
+        title: Sporting CP
+        sub_title: Full Stack Software Developer
+        link: www.sporting.pt
+        caption: Dec 2020 - Nov 2022
+        description: |
+          Sporting Clube de Portugal is a Portuguese sports club. Working as a freelancer, my role included an initial 
+          phase of the technical optimization of some internal mechanisms in the club's scouting department.
+  
+          Later, I developed a football player management platform, Scouting num Minuto, allowing Scouters to elaborate 
+          observation reports. Through the centralization of data processing, players' statistics could be obtained in 
+          order to optimize and improve the department's work.
+
+          <mark>Focus: Java, SpringBoot, Jpa, Angular, Typescript, SQL, MySQL, Git JUnit, AWS</mark>
+
+      - layout: left
+        border: weak
+        title: Affinity
+        sub_title: Backend Software Developer
+        link: www.affinity.pt
+        caption: May 2021 - Jun 2022
+        description: |
+          As IoT Software Developer, it was part of my role to develop new features and maintain the smart mirrors that 
+          Farfetch and its partners have in the boutiques.
+          Focused on the backend, the management, and control of the mirrors, and the software in them was essentially 
+          done through technology such as Azure, Typescript, and .NET.
+        
+          Note: after a year of working for Affinity at Farfetch, as outsource, Farfetch hired me as a permanent employee.
+          
+          <mark>Focus: Node.js, Typescript, Azure, C#, .NET, Git, MongoDB
+
+      - layout: left
+        title: Opensoft
+        sub_title: Software Developer
+        link: www.opensoft.pt
+        caption: Mar 2019 - Feb 2020
+        description: |
+          Development of functionalities in a European project in the Tax Authority. Evolutive maintenance and bug fixing. 
+          Develop new features in a European project according to national or European specifications. Perform unit 
+          tests on the developed functionalities.
+
+          Analyze tickets/reported situations and find the best solution: correct the bug or communicate the problem to 
+          entities in other countries.
+          Improve existing functionalities, improving the efficiency and clarity of the code.
+          
+          Meetings with the client to discuss functional specifications.
+
+          <mark>Focus: Java, Spring, SQL, Hibernate, DB2, JPA, Scrum, Angular, Junit, Jenkins, DB2, Oracle, SOAP</mark>
+
+  - title: Projects # Title for the section
+    layout: list
+    content:
+      - layout: top-middle
+        border: weak
+        title: Agência 351
+        link: www.agencia351.pt
+        # additional_links:
+        #  - title: sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: https://github.com/sproogen/modern-resume-theme
+        quote: >
+          Projects as a Free Lancer
+        description: |
+          Agência 351 is a company of events realization in Portugal, having as main brands Pegadinha and Villamix.
+          I perform the function of management and development of various applications, web, and mobile:
+            
+          Construction of the Pegadinha brand website, containing basic information about the events, photos and video 
+          repository, and an online shop for selling the brand's clothing and accessories.
+          
+          Development of a web platform for event management, statistics, and the ticket purchase. In the future will be 
+          developed a mobile application.
+          
+          <mark>Focus: AWS, Laravel, Typescript, Node.js, Vue.js, MySQL, Flutter</mark>
+
+      - layout: top-middle
+        border: weak
+        title: Flydren
+        quote: >
+          Dissertation project
+        description: |
+          Development of a platform for the control, management, and monitoring of drones. Use of artificial intelligence 
+          for real-time fire detection.
+          Database design and construction for the project.
+          
+          Development of APIs in the microservices for communication with each other, with a gateway for request management.
+          Development of a web platform in Vue.js to manage the platform and its devices.
+        
+          <mark>Focus: Typescript, Javascript, Node.js, Vue.js, SQL, MySQL, Git, Express, Sequelize, Axios, Jest, ESLint, 
+          REST</mark>
+
+      - layout: top-middle
+        border: weak
+        title: Other free lancer projects
+        quote: >
+          For confidentiality reasons, I cannot reveal the companies/people associated with these projects :)
+        description: |
+          Management and maintenance of the contact service of a Portuguese actor/actress. Development of his web page.
+  
+          Management and development of a web platform associated with fitness to be used by personal trainers and students.
+          The application allows the scheduling of classes, purchase of classes, and registering attendance.
+
+  - title: Education
+    layout: list
+    content:
+      - title: Iscte-iul
+        sub_title: Msc Telecommunications and Computer Science
+        caption: 2017 - 2020
+        description: |
+          Dissertation project: An effective and efficient web platform for monitoring, control, and management of drones 
+          supported by a new microservices approach
+
+      - title: Iscte-iul
+        sub_title: Bsc Telecommunications and Computer Science
+        caption: 2014 - 2017
+        # description: |
+  - title: Tech Stack
+    layout: text
+    content: |
+      My main technologies are:
+      - Java
+      - Typescript
+      - SQL
+      
+      My Frameworks:
+      - Spring
+      - Angular
+      - Node.js
+      - Vue.js
+      - Laravel
+      
+      Cloud:
+      - AWS
+      - Azure
+      
+      Others:
+      - Scrum, MVC, MVP, PHP, Javascript, C, Shell, Jpa, JUnit, Jest, Git, Hibernate, Jenkins, C#, DB2, Oracle, Flutter,
+      Postman, Robot Framework, MongoDb, MySQL, SOAP, REST, Express, Sequelize, Axios, Eslint
+
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+# sass:
+#   style: compressed
