@@ -45,23 +45,6 @@ content:
     content:
       - layout: left
         border: weak
-        title: Galaxy Football Academy
-        sub_title: IT Director
-        caption: October 2022 - Present
-        description: |
-          GFA is a football academy based in Dakar, Senegal. As IT Director, I am responsible for the technological and 
-          functional modernization of this club.
-  
-          Building, using, and maintaining platforms are part of my responsibility, using on-premise and cloud services.
-          We work with several technologies such as Python, Typescript, and AWS.
-          
-          The main goal of this team is in the data control optimization of several players we have, so we can continue 
-          to progress internationally. In the 2023/2024 sports season, we will make the expansion to Europe.
-        
-          <mark>Focus: Azure, AWS, Typescript, Python, IoT, Team Management</mark>
-
-      - layout: left
-        border: weak
         title: Farfetch
         sub_title: Backend Software Engineer
         link: www.farfetch.com
@@ -91,22 +74,24 @@ content:
           Processes and threads, Process scheduling, Process synchronization, Semaphores, Interprocess communication 
           Memory Management, Memory management models and algorithms, Virtual Memory, Input / Output, File Systems, 
           Administration and security issues Case study: Linux, shell commands and shell programming, Communication and 
-          synchronization mechanisms.                                                    
+          synchronization mechanisms.   
 
       - layout: left
         border: weak
-        title: Upskill Iscte-iul
-        sub_title: Former
-        link: www.upskill.pt
-        caption: Set 2020 - Present
+        title: Galaxy Football Academy
+        sub_title: IT Director
+        caption: Oct 2022 - Sep 2023
         description: |
-          The UPskill Programme aims to re-qualify people in the various areas of Information and Communication 
-          Technologies.
-          As a former trainer since the first edition of the program, I have taught the following courses:
+          GFA is a football academy based in Dakar, Senegal. As IT Director, I am responsible for the technological and 
+          functional modernization of this club.
           
-          Java, covering the subjects of Programming in Java, database, software engineering, and SpringBoot.
+          Building, using, and maintaining platforms are part of my responsibility, using on-premise and cloud services.
+          We work with several technologies such as Python, Typescript, and AWS.
           
-          Cloud, covering the subjects of Operating Systems, Networking, Web, and AWS.
+          The main goal of this team is in the data control optimization of several players we have, so we can continue 
+          to progress internationally. In the 2023/2024 sports season, we will make the expansion to Europe.
+          
+          <mark>Focus: Azure, AWS, Typescript, Python, IoT, Team Management</mark>
 
       - layout: left
         border: weak
@@ -123,6 +108,21 @@ content:
           order to optimize and improve the department's work.
 
           <mark>Focus: Java, SpringBoot, Jpa, Angular, Typescript, SQL, MySQL, Git JUnit, AWS</mark>
+
+      - layout: left
+        border: weak
+        title: Upskill Iscte-iul
+        sub_title: Former
+        link: www.upskill.pt
+        caption: Set 2020 - Aug 2022
+        description: |
+          The UPskill Programme aims to re-qualify people in the various areas of Information and Communication 
+          Technologies.
+          As a former trainer since the first edition of the program, I have taught the following courses:
+          
+          Java, covering the subjects of Programming in Java, database, software engineering, and SpringBoot.
+          
+          Cloud, covering the subjects of Operating Systems, Networking, Web, and AWS.
 
       - layout: left
         border: weak
