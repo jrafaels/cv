@@ -26,7 +26,6 @@ linkedin_username: jorge-rafael-santos
 about_profile_image: images/profile.jpg
 about_content: |
   Hello, my name is Jorge Rafael Santos and I'm a full-stack developer.
-  Currently, I work at <mark>Noah FC</mark>.
   
   Although I consider myself a backend programmer, I worked with frontend technologies from an early age, which allowed 
   me to do a lot of freelance work. I'm also a university professor.
@@ -40,9 +39,36 @@ content:
     content:
       - layout: left
         border: weak
+        title: Affinity (at Sanday)
+        sub_title: Backend Software Engineer
+        link: www.affinity.pt
+        caption: May 2025 - Present
+        description: |
+          Development of new functionalities in the Dutch healthcare sector, including the development and implementation 
+          of new guidelines for communicating health content.
+          
+          <mark>Focus: Java, Microservices, Azure</mark>
+
+      - layout: left
+        border: weak
+        title: Iscte-iul
+        sub_title: Invited Professor
+        link: www.iscte-iul.pt
+        caption: Feb 2021 - Present
+        description: |
+          University professor at the Iscte-Iul university in Lisbon in the Operating Systems course.
+
+          Linux and C are the main topics covered in class, also with: Introduction to Operating Systems Processes, 
+          Processes and threads, Process scheduling, Process synchronization, Semaphores, Interprocess communication 
+          Memory Management, Memory management models and algorithms, Virtual Memory, Input / Output, File Systems, 
+          Administration and security issues Case study: Linux, shell commands and shell programming, Communication and 
+          synchronization mechanisms. 
+
+      - layout: left
+        border: weak
         title: Noah FC
         sub_title: IT Director
-        caption: Mar 2024 - now
+        caption: Mar 2024 - Feb 2025
         description: |
           Led the design, planning, and implementation of the club’s entire technological infrastructure from the ground up.
 
@@ -69,22 +95,7 @@ content:
           Working also with .NET and C#, my main roles involve backend development of new functionality for the 
           company's in-store services.
         
-          <mark>Focus: Node.js, Typescript, Azure, C#, .NET, Git, MongoDB, Robot Framework</mark>
-
-      - layout: left
-        border: weak
-        title: Iscte-iul
-        sub_title: Invited Professor
-        link: www.iscte-iul.pt
-        caption: Feb 2021 - Present
-        description: |
-          University professor at the Iscte-Iul university in Lisbon in the Operating Systems course.
-
-          Linux and C are the main topics covered in class, also with: Introduction to Operating Systems Processes, 
-          Processes and threads, Process scheduling, Process synchronization, Semaphores, Interprocess communication 
-          Memory Management, Memory management models and algorithms, Virtual Memory, Input / Output, File Systems, 
-          Administration and security issues Case study: Linux, shell commands and shell programming, Communication and 
-          synchronization mechanisms.   
+          <mark>Focus: Node.js, Typescript, Azure, C#, .NET, Git, MongoDB, Robot Framework</mark>  
 
       - layout: left
         border: weak
@@ -136,7 +147,7 @@ content:
 
       - layout: left
         border: weak
-        title: Affinity
+        title: Affinity (at Farfetch)
         sub_title: Backend Software Developer
         link: www.affinity.pt
         caption: May 2021 - Jun 2022
@@ -168,17 +179,32 @@ content:
 
           <mark>Focus: Java, Spring, SQL, Hibernate, DB2, JPA, Scrum, Angular, Junit, Jenkins, DB2, Oracle, SOAP</mark>
 
-  - title: Projects # Title for the section
+  - title: Projects
     layout: list
     content:
       - layout: top-middle
         border: weak
+        title: IPSOS Apeme
+        link: www.ipsos.com
+        quote: >
+          Software Architect
+        description: |
+          IPSOS Apeme is a company specialising in market research, public opinion and social studies. The company 
+          provides strategic analysis and insights that help organisations understand consumer behaviour, trends and needs.
+
+          Software development, creating APIs and web management platforms tailored to project needs. Working with large 
+          volumes of data, ensuring its security and integrity.
+          
+          Defining project architecture, including studying and analysing different solutions prior to implementation.
+          
+          Server maintenance and management, ensuring application stability and performance.
+
+          <mark>Focus: Java, C#, SQL, Node.js, Typescript, System Architecture</mark>
+
+      - layout: top-middle
+        border: weak
         title: Agência 351
         link: www.agencia351.pt
-        # additional_links:
-        #  - title: sproogen/modern-resume-theme
-        #    icon: fab fa-github
-        #    url: https://github.com/sproogen/modern-resume-theme
         quote: >
           Projects as a Free Lancer
         description: |
@@ -212,13 +238,11 @@ content:
       - layout: top-middle
         border: weak
         title: Other free lancer projects
-        quote: >
-          For confidentiality reasons, I cannot reveal the companies/people associated with these projects :)
         description: |
           Management and maintenance of the contact service of a Portuguese actor/actress. Development of his web page.
   
-          Management and development of a web platform associated with fitness to be used by personal trainers and students.
-          The application allows the scheduling of classes, purchase of classes, and registering attendance.
+          Management and development of a web platform associated with fitness to be used by personal trainers, online
+          stores, and another websites projects.
 
   - title: Education
     layout: list
@@ -233,7 +257,7 @@ content:
       - title: Iscte-iul
         sub_title: Bsc Telecommunications and Computer Science
         caption: 2014 - 2017
-        # description: |
+
   - title: Tech Stack
     layout: text
     content: |
